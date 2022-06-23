@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 1080px;
+    background-size: auto;
+    ;
+
+} 
+ #bg {
+    height: 142VH;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+} 
+.export{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+#QUESTS{
+    position: absolute;
+    left:7% ;
+    top:2% ;
+    color: white;
+    font-size: 215%;
+}
+#SCORES{
+    position: absolute;
+    right: 4%;
+    top: 2%;
+    color: white;
+    font-size: 215%;
+
+}
+.quiz{
+    width: 844px;
+    height: 672px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.Question h1{
+    color: black;
+    text-align: center;
+    justify-content: center;
+    border-radius: 2px;
+    font-size: 122%;
+    background-color: #F5E1CE;
+    width: 67%;
+    margin: 2% 20%;
+    padding: 1%;
+
+}
+.container{
+    width: 800px;
+    max-width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+
+}
+.question-answer{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.answer-1{
+
+border: 1px solid black;
+width: 27%;
+height: 65px;
+text-align: center;
+margin: 11%;
+}
+.answer-1 p{
+    font-size: 114%;
+    margin: 5%;
+    color: black;
+}
+.answer-2{
+border: 1px solid black;
+width: 27%;
+height: 65px;
+text-align: center;
+margin: 11%;
+}
+.answer-2 p{
+    font-size: 114%;
+    margin: 5%;
+    color: black;
+}
+.answer-3{
+
+border: 1px solid black;
+width: 27%;
+height: 65px;
+text-align: center;
+margin: 11%;
+
+}
+.answer-3 p{
+    font-size: 114%;
+    margin: 5%;
+    color: black;
+
+}
+.answer-4{
+border: 1px solid black;
+width: 27%;
+height: 65px;
+text-align: center;
+margin: 11%;
+
+}
+.answer-4 p{
+    font-size: 114%;
+    margin: 5%;
+    color: black;
+}
+span{
+    color: #C78038;
+}
+input{ 
+    background-color: #F5E1CE;
+    border: 1px solid #F5E1CE;
+    height: 50px;
+    width: 20%;
+    margin: 0% 40%;
+    border-radius: 12px;
+    transition: width 1s;
+
+}
+input:hover{
+    background-color: #3D7F82;
+    color: white;
+    width: 30%;
+
+}
+#button{
+    font-size: 121%;
+}
+
+@media only screen and (max-width: 600px){
+
+    .question-answer{
+flex-direction: column;    
+    }
+    #QUESTS{
+        position: absolute;
+        left:7% ;
+        top:2% ;
+        color: white;
+        font-size: 136%;
+    }
+    #SCORES{
+        position: absolute;
+        right: 4%;
+        top: 2%;
+        color: white;
+        font-size: 135%;
+    
+    }
+    
+    .quiz{
+        width: 444px;
+        height: 705px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .Question h1{
+        color: black;
+        text-align: center;
+        justify-content: center;
+        border-radius: 2px;
+        font-size: 80%;
+        background-color: #F5E1CE;
+        width: 67%;
+        margin: 2% 20%;
+        padding: 1%;
+    
+    }
+    .container{
+        width: 800px;
+        max-width: 80%;
+        background-color: white;
+        border-radius: 5px;
+        padding: 10px;
+        box-shadow: 0 0 10px 2px;
+    
+    }
+    .question-answer{
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    .answer-1{
+    
+    border: 1px solid black;
+    width: 69%;
+    height: 47px;
+    text-align: center;
+    margin: 11%;
+    }
+    .answer-1 p{
+        font-size: 114%;
+        margin: 5%;
+        color: black;
+    }
+    .answer-2{
+    border: 1px solid black;
+    width: 69%;
+    height: 47px;
+    text-align: center;
+    margin: 11%;
+    }
+    .answer-2 p{
+        font-size: 114%;
+        margin: 5%;
+        color: black;
+    }
+    .answer-3{
+    
+    border: 1px solid black;
+    width: 69%;
+    height: 47px;
+    text-align: center;
+    margin: 11%;
+    
+    }
+    .answer-3 p{
+        font-size: 114%;
+        margin: 5%;
+        color: black;
+    
+    }
+    .answer-4{
+    border: 1px solid black;
+    width: 69%;
+    height: 47px;
+    text-align: center;
+    margin: 11%;
+    
+    }
+    .answer-4 p{
+        font-size: 114%;
+        margin: 5%;
+        color: black;
+    }
+    span{
+        color: #C78038;
+    }
+    input{ 
+        background-color: #F5E1CE;
+        border: 1px solid #F5E1CE;
+        height: 26px;
+        width: 20%;
+        margin: 0% 40%;
+        border-radius: 12px;
+        transition: width 1s;
+    
+    }
+    input:hover{
+        background-color: #3D7F82;
+        color: white;
+        width: 30%;
+    
+    }
+    #button{
+        font-size: 100%;
+    }
+    .radio{
+        /* font-size: 20%; */
+        width: 10%;
+        margin: -6% 1% 1% 1%;
+    }
+
+}

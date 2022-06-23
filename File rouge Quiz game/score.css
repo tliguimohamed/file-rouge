@@ -1,0 +1,21 @@
+*{
+    margin: 0%;
+    padding:0% ;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #2B8791;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin: 12% 1% -6% 0%;
+}
+#score{
+    margin-top: 238px;
+    padding: 17px 52px 10px 52px;
+    font-size: 26px;
+    background-color: beige;
+    margin-left: 45%;
+}
